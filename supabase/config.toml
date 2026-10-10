@@ -1,0 +1,4 @@
+project_id = "gxzpezrzbkgrlhrrwjvn"
+
+[functions.notify-mobile]
+verify_jwt = false

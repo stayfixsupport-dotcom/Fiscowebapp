@@ -16,20 +16,6 @@ Some features require external services and credentials to be configured.
 - Node.js and npm
 - A Supabase project
 
-## Run locally
-
-Install dependencies from the repository root:
-
-```sh
-npm install
-```
-
-Create `.env.local` in the repository root:
-
-```dotenv
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
-```
 
 Apply `supabase/schema.sql` to your Supabase project, then start the development server:
 
